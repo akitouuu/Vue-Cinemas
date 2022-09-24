@@ -329,6 +329,16 @@ body {
     position: relative;
     max-width: 350px;
     width: 100%;
+    transition: .5s;
+    border-radius: var(--b-radius);
+}
+
+.main__collections-item:hover {
+    box-shadow: 0px 0px 15px 5px green;
+}
+
+.main__collections-item:hover .main__collections-title {
+    opacity: 0;
 }
 
 .main__collections {
@@ -342,6 +352,7 @@ body {
     line-height: 22px;
     font-family: var(--CB);
     margin-top: 15px;
+    transition: .5s;
 }
 
 .main__collections-img {
