@@ -1,0 +1,81 @@
+@media(max-width: 1140px) {
+    .main__films, .main__collections-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 30px;
+    }
+    
+    .main__title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 992px) {
+    .main__blackwidow-description{
+        margin: 20px 0;
+    }
+    
+    .main__blackwidow-video {
+        display: block;
+        min-height: 500px;
+    }
+    
+    .main__series-item:nth-of-type(2) {
+        grid-column: span 4;
+    }
+    
+    .main__series-item {
+        grid-column: span 2;
+    }
+}
+
+@media(max-width: 740px) {
+    .header__content-img {
+        min-height: 700px;
+    }
+    
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 20px;
+    }
+    
+    .header__content-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .main__series-description{
+        margin: 20px 0;
+    }
+    
+    .main__series-item:nth-of-type(1) {
+        min-height: 500px;
+    }
+}
+
+@media(max-width: 470px) {
+    .header__nav-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+    .header__nav-link {
+        padding: 20px 0;
+    }
+    
+    .main__blackwidow-img, .main__collections-img{
+        width: 100%;
+    }
+    
+    .main__series-item {
+        grid-column: span 4;
+    }
+    
+    .main__series-item:nth-of-type(1) .main__series-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
